@@ -1,39 +1,3 @@
-// #include<stdio.h>
-// int main(){
-//     int a;
-//     printf("enter the number of element in array:\n");
-//     scanf("%d",&a);
-//     int b[a];
-//     printf("enter the element in array:\n");
-//     for(int i=0;i<a;i++){
-//         scanf("%d",&b[i]);
-//     }
-//     int c,mid;
-//     printf("enter the target:");
-//     scanf("%d",&c);
-//     int left=0,right=a-1,flag=0;
-//     while(left<=right){
-//         mid=(left+right)/2;
-//         if(b[mid]==c){
-            
-//             flag=1;
-//             break;
-//         }
-//         if(b[mid]>c){
-//             right=mid-1;
-//         }
-//         else{
-//             left=mid+1;
-//         }
-//     }
-//     if(flag==1){
-//         printf("the position is:%d",mid);
-//     }
-//     else{
-//         printf("element not found");
-//     }
-// }
-
 
 #include<stdio.h>
 
